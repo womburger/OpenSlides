@@ -3,9 +3,10 @@
 # This file is distributed under the same license as the OpenSlides package.
 # Oskar Hahn <mail@oshahn.de>, 2012.
 #
+
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenSlides 1.x\n"
+"Project-Id-Version: OpenSlides 1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-05 22:16+0200\n"
 "PO-Revision-Date: 2012-07-28 11:07+0200\n"
@@ -344,12 +345,12 @@ msgstr "Triviale Änderungen erzeugen keine neue Version."
 #: application/templates/application/view.html:18
 #: application/templates/projector/Application.html:55
 msgid "Submitter"
-msgstr "Antragsteller/in"
+msgstr "Antragstellerin"
 
 #: application/forms.py:68 application/models.py:65 application/views.py:756
 #: application/templates/application/view.html:25
 msgid "Supporters"
-msgstr "Unterstützer/innen"
+msgstr "Unterstützerinnen"
 
 #: application/forms.py:75 participant/forms.py:92
 msgid "CSV File"
@@ -365,11 +366,11 @@ msgstr "Setzt den initialen Status für jeden Antrag auf \"zugelassen\""
 
 #: application/forms.py:88
 msgid "Number of (minimum) required supporters for a motion"
-msgstr "Mindestanzahl erforderlicher Unterstützer/innen für einen Antrag"
+msgstr "Mindestanzahl erforderlicher Unterstützerinnen für einen Antrag"
 
 #: application/forms.py:92
 msgid "Choose 0 to disable the supporting system"
-msgstr "Wähle 0 um das Unterstützersystem zu deaktivieren"
+msgstr "Wähle 0 um das Unterstützerinnensystem zu deaktivieren"
 
 #: application/forms.py:97
 msgid "Motion preamble"
@@ -385,7 +386,7 @@ msgstr "Anzahl aller Delegierten"
 
 #: application/forms.py:105 assignment/forms.py:51
 msgid "Number of all participants"
-msgstr "Anzahl aller Teilnehmer/innen"
+msgstr "Anzahl aller Teilnehmerinnen"
 
 #: application/forms.py:106 assignment/forms.py:52
 msgid "Use the following custom number"
@@ -467,7 +468,7 @@ msgstr "Version %d verworfen"
 
 #: application/models.py:138
 msgid "Searching for supporters."
-msgstr "Auf Unterstützersuche."
+msgstr "Auf Unterstützerinnensuche."
 
 #: application/models.py:140
 msgid "Not yet authorized."
@@ -492,7 +493,7 @@ msgstr "Version %s erstellt"
 
 #: application/models.py:228
 msgid "Supporters removed"
-msgstr "Unterstützer/innen gelöscht"
+msgstr "Unterstützerinnen gelöscht"
 
 #: application/models.py:237
 #, python-format
@@ -502,12 +503,12 @@ msgstr "Status zurückgesetzt auf: %s"
 #: application/models.py:250
 #, python-format
 msgid "Supporter: +%s"
-msgstr "Unterstützer/in: +%s"
+msgstr "Unterstützerin: +%s"
 
 #: application/models.py:260
 #, python-format
 msgid "Supporter: -%s"
-msgstr "Unterstützer/in: -%s"
+msgstr "Unterstützerin: -%s"
 
 #: application/models.py:276
 #, python-format
@@ -602,7 +603,7 @@ msgstr ""
 
 #: application/views.py:184
 msgid "You can not edit this motion. You are not the submitter."
-msgstr "Sie dürfen diesen Antrag nicht bearbeiten. Sie sind nicht der Antragsteller"
+msgstr "Sie dürfen diesen Antrag nicht bearbeiten. Sie sind nicht die Antragstellerin"
 
 #: application/views.py:244
 msgid "New motion was successfully created."
@@ -625,7 +626,7 @@ msgid ""
 "<b>not</b> be removed automatically because you can manage motions. Please "
 "check if the supports are valid after your changing!"
 msgstr ""
-"Achtung: Wollen Sie den Antrag wirklich ändern? Die Unterstützer/innen "
+"Achtung: Wollen Sie den Antrag wirklich ändern? Die Unterstützerinnen "
 "werden <b>nicht</b> automatisch entfernt, da Sie Anträge verwalten dürfen. "
 "Prüfen Sie, ob die Unterstützungen noch gültig sind."
 
@@ -634,7 +635,7 @@ msgid ""
 "Attention: Do you really want to edit this motion? All <b>%s</b> supporters "
 "will be removed! Try to convince the supporters again."
 msgstr ""
-"Wollen Sie den Antrag wirklich ändern? Alle <b>%s</b> Unterstützer/innen "
+"Wollen Sie den Antrag wirklich ändern? Alle <b>%s</b> Unterstützerinnen "
 "werden dann automatisch entfernt. Versuchen Sie diese erneut zu gewinnen."
 
 #: application/views.py:293
@@ -758,8 +759,8 @@ msgstr[1] "%d Anträge wurden erfolgreich geändert."
 #, python-format
 msgid "%d new user was added."
 msgid_plural "%d new users were added."
-msgstr[0] "%d neuer Nutzer wurde erstellt."
-msgstr[1] "%d neue Nutzer wurden erstellt."
+msgstr[0] "%d neue Nutzerin wurde erstellt."
+msgstr[1] "%d neue Nutzerinnen wurden erstellt."
 
 #: application/views.py:657 participant/views.py:534
 msgid "Import aborted because of severe errors in the input file."
@@ -975,7 +976,7 @@ msgstr "Importieren"
 
 #: application/templates/application/overview.html:15
 msgid "Need supporters"
-msgstr "Benötigt Unterstützer/innen"
+msgstr "Benötigt Unterstützerinnen"
 
 #: application/templates/application/overview.html:18
 msgid "Without number"
@@ -991,7 +992,7 @@ msgstr "Zugelassen"
 
 #: application/templates/application/overview.html:26
 msgid "Withdrawen (by submitter)"
-msgstr "Zurückgezogen (durch Antragsteller/in)"
+msgstr "Zurückgezogen (durch Antragstellerin)"
 
 #: application/templates/application/overview.html:35
 msgid "Number"
@@ -1003,7 +1004,7 @@ msgstr "Antragstitel"
 
 #: application/templates/application/overview.html:38
 msgid "Number of supporters"
-msgstr "Anzahl der Unterstützer/innen"
+msgstr "Anzahl der Unterstützerinnen"
 
 #: application/templates/application/overview.html:42
 #: application/templates/application/view.html:112
@@ -1095,7 +1096,7 @@ msgstr "Unterstützen"
 
 #: application/templates/application/view.html:139
 msgid "minimum required supporters"
-msgstr "minimal erforderliche Unterstützer/innen"
+msgstr "minimal erforderliche Unterstützerinnen"
 
 #: application/templates/application/view.html:146
 msgid "Manage motion"
@@ -1131,7 +1132,7 @@ msgstr "Ergebnis nach der Debatte"
 
 #: application/templates/application/view.html:192
 msgid "Withdrawed by Submitter"
-msgstr "Zurückgezogen durch Antragsteller/in"
+msgstr "Zurückgezogen durch Antragstellerin"
 
 #: application/templates/application/view.html:197
 msgid "For Administration only:"
@@ -1208,12 +1209,12 @@ msgstr "Anzahl der zur Wahl stehenden Posten"
 
 #: assignment/forms.py:35
 msgid "Nominate a participant"
-msgstr "Teilnehmer/in vorschlagen"
+msgstr "Teilnehmerin vorschlagen"
 
 #: assignment/forms.py:42
 msgid "Only publish voting results for selected winners (Projector view only)"
 msgstr ""
-"Wahlergebnisse der nicht gewählten Kandidaten auf dem Projektor verbergen"
+"Wahlergebnisse der nicht gewählten Kandidatinnen auf dem Projektor verbergen"
 
 #: assignment/forms.py:64
 msgid "Title for PDF document (all elections)"
@@ -1233,16 +1234,16 @@ msgstr "Automatische Zuordnung der Methode."
 
 #: assignment/forms.py:76
 msgid "Always one option per candidate."
-msgstr "Eine Stimme pro Kandidat/in."
+msgstr "Eine Stimme pro Kandidatin."
 
 #: assignment/forms.py:77
 msgid "Always Yes-No-Abstain per candidate."
-msgstr "Ja, Nein, Enthaltung pro Kandidat/in."
+msgstr "Ja, Nein, Enthaltung pro Kandidatin."
 
 #: assignment/models.py:35 assignment/templates/assignment/overview.html:15
 #: assignment/templates/assignment/view.html:23
 msgid "Searching for candidates"
-msgstr "Auf Kandidatensuche"
+msgstr "Auf Kandidatinnensuche"
 
 #: assignment/models.py:36 assignment/templates/assignment/overview.html:16
 #: assignment/templates/assignment/view.html:25
@@ -1274,16 +1275,16 @@ msgstr "Der Wahlstatus ist bereits %s."
 #: assignment/models.py:71
 #, python-format
 msgid "<b>%s</b> is already a candidate."
-msgstr "<b>%s</b> ist bereits ein/e Kandidat/in."
+msgstr "<b>%s</b> ist bereits eine Kandidatin."
 
 #: assignment/models.py:73 assignment/models.py:81
 msgid "The candidate list is already closed."
-msgstr "Die Kandidatenliste ist bereits geschlossen."
+msgstr "Die Kandidatinnenliste ist bereits geschlossen."
 
 #: assignment/models.py:86
 #, python-format
 msgid "%s is no candidate"
-msgstr "%s ist kein/e Kandidat/in"
+msgstr "%s ist keine Kandidatin"
 
 #: assignment/models.py:193
 msgid "Can see assignment"
@@ -1316,7 +1317,7 @@ msgstr "Wahlen"
 #: assignment/views.py:82
 #, python-format
 msgid "Candidate <b>%s</b> was nominated successfully."
-msgstr "Kandidat/in <b>%s</b> wurde erfolgreich vorgeschlagen."
+msgstr "Kandidatin <b>%s</b> wurde erfolgreich vorgeschlagen."
 
 #: assignment/views.py:121
 msgid "New election was successfully created."
@@ -1343,7 +1344,7 @@ msgstr "Sie haben Ihre Kandidatur erfolgreich gesetzt."
 #: assignment/views.py:177
 msgid "You can't candidate. Your user account is only for administration."
 msgstr ""
-"Sie können nicht kandidieren. Ihr Nutzerkonto ist nur zur Administration."
+"Sie können nicht kandidieren. Ihr Nutzerinnenkonto ist nur zur Administration."
 
 #: assignment/views.py:186
 msgid "You have withdrawn your candidature successfully."
@@ -1410,7 +1411,7 @@ msgstr "Wahlen: %s"
 #: assignment/templates/projector/Assignment.html:38
 #: assignment/templates/projector/Assignment.html:56
 msgid "Candidates"
-msgstr "Kandidaten/innen"
+msgstr "Kandidateninnen"
 
 #: assignment/views.py:395
 #: assignment/templates/assignment/base_assignment.html:71
@@ -1454,8 +1455,8 @@ msgstr "%d. Wahlgang"
 #, python-format
 msgid "%d candidate"
 msgid_plural "%d candidates"
-msgstr[0] "%d Kandidat/in"
-msgstr[1] "%d Kandidaten/innen"
+msgstr[0] "%d Kandidatin"
+msgstr[1] "%d Kandidateninnen"
 
 #: assignment/views.py:526
 #, python-format
@@ -1534,12 +1535,12 @@ msgstr "Status ändern"
 
 #: assignment/templates/assignment/view.html:42
 msgid "Remove candidate"
-msgstr "Kandidate/in entfernen"
+msgstr "Kandidatein entfernen"
 
 #: assignment/templates/assignment/view.html:47
 #: assignment/templates/projector/Assignment.html:44
 msgid "No candidates available."
-msgstr "Keine Kandidaten/innen vorhanden."
+msgstr "Keine Kandidateninnen vorhanden."
 
 #: assignment/templates/assignment/view.html:60
 msgid "Withdraw self candidature"
@@ -1551,7 +1552,7 @@ msgstr "Selbst kandidieren"
 
 #: assignment/templates/assignment/view.html:79
 msgid "Add new participant"
-msgstr "Neue/n Teilnehmer/in hinzufügen"
+msgstr "Neue Teilnehmerin hinzufügen"
 
 #: assignment/templates/assignment/view.html:95
 #: assignment/templates/projector/Assignment.html:52
@@ -1570,12 +1571,12 @@ msgstr "Neuer Wahlgang"
 #: assignment/templates/assignment/view.html:145
 #: assignment/templates/projector/Assignment.html:69
 msgid "Candidate is elected"
-msgstr "Kandidat/in ist gewählt"
+msgstr "Kandidatin ist gewählt"
 
 #: assignment/templates/assignment/view.html:164
 #: assignment/templates/projector/Assignment.html:84
 msgid "was not a <br> candidate"
-msgstr "war kein Kandidat"
+msgstr "war keine Kandidatin"
 
 #: assignment/templates/assignment/view.html:213
 #: assignment/templates/projector/Assignment.html:126
@@ -1600,11 +1601,11 @@ msgstr "Veranstaltungsort"
 
 #: config/forms.py:50
 msgid "Event organizer"
-msgstr "Veranstalter"
+msgstr "Veranstalterin"
 
 #: config/forms.py:55
 msgid "Allow access for anonymous guest users"
-msgstr "Erlaube Zugriff für anonyme Gast-Nutzer"
+msgstr "Erlaube Zugriff für anonyme Gast-Nutzerinnen"
 
 #: config/forms.py:67 participant/forms.py:110
 msgid "Welcome text"
@@ -1640,7 +1641,7 @@ msgid ""
 "Anonymous access enabled. Please modify the \"Anonymous\" group to fit your "
 "required permissions."
 msgstr ""
-"Anonymer Zugriff aktiviert. Bitte setzen Sie die Rechte der Benutzerrolle "
+"Anonymer Zugriff aktiviert. Bitte setzen Sie die Rechte der Benutzerinnenrolle "
 "\"Anonymous\" passend zum gewünschten Zugriffslevel."
 
 #: config/views.py:84
@@ -1670,11 +1671,11 @@ msgstr "System"
 
 #: participant/__init__.py:3
 msgid "Participant"
-msgstr "Teilnehmer"
+msgstr "Teilnehmerin"
 
 #: participant/forms.py:24
 msgid "Keep motions, try to reassign submitter"
-msgstr "Anträge beibehalten, versuchen Antragssteller erneut zuzuweisen"
+msgstr "Anträge beibehalten, versuchen Antragsstellerin erneut zuzuweisen"
 
 #: participant/forms.py:25
 msgid "Keep motions, set status to \"needs review\""
@@ -1696,7 +1697,7 @@ msgstr "Nachname"
 #: participant/templates/participant/group_overview.html:6
 #: participant/templates/participant/group_overview.html:9
 msgid "User groups"
-msgstr "Benutzerrollen"
+msgstr "Benutzerinnenrollen"
 
 #: participant/forms.py:35 participant/forms.py:49
 #: participant/templates/participant/overview.html:52 projector/models.py:65
@@ -1729,15 +1730,15 @@ msgstr "Weiblich"
 
 #: participant/models.py:31 participant/templates/participant/overview.html:37
 msgid "Delegate"
-msgstr "Delegierter"
+msgstr "Delegierte"
 
 #: participant/models.py:32 participant/templates/participant/overview.html:38
 msgid "Observer"
-msgstr "Beobachter"
+msgstr "Beobachterin"
 
 #: participant/models.py:33 participant/templates/participant/overview.html:39
 msgid "Staff"
-msgstr "Mitarbeiter"
+msgstr "Mitarbeiterin"
 
 #: participant/models.py:34 participant/templates/participant/overview.html:40
 msgid "Guest"
@@ -1759,7 +1760,7 @@ msgstr "Geschlecht"
 
 #: participant/models.py:42 participant/models.py:44 participant/models.py:47
 msgid "Only for filter the userlist."
-msgstr "Nur zum Filtern der Benutzerliste."
+msgstr "Nur zum Filtern der Benutzerinnenliste."
 
 #: participant/models.py:44
 msgid "Typ"
@@ -1781,29 +1782,29 @@ msgstr "Erst-Passwort"
 
 #: participant/models.py:84
 msgid "Can see participant"
-msgstr "Darf die Teilnehmer/inen sehen"
+msgstr "Darf die Teilnehmerinnen sehen"
 
 #: participant/models.py:85
 msgid "Can manage participant"
-msgstr "Darf die Teilnehmer/inen verwalten"
+msgstr "Darf die Teilnehmerinnen verwalten"
 
 #: participant/views.py:176
 msgid "New participant was successfully created."
-msgstr "Neue/r Teilnehmer/in wurde erfolgreich angelegt."
+msgstr "Neue Teilnehmerin wurde erfolgreich angelegt."
 
 #: participant/views.py:179
 msgid "Participant was successfully modified."
-msgstr "Teilnehmer/in wurde erfolgreich geändert."
+msgstr "Teilnehmerin wurde erfolgreich geändert."
 
 #: participant/views.py:211
 #, python-format
 msgid "Participant <b>%s</b> was successfully deleted."
-msgstr "Teilnehmer/in <b>%s</b> wurde erfolgreich gelöscht."
+msgstr "Teilnehmerin <b>%s</b> wurde erfolgreich gelöscht."
 
 #: participant/views.py:234
 #, python-format
 msgid "Participant ID %d does not exist."
-msgstr "Teilnehmer/in ID %d existiert nicht."
+msgstr "Teilnehmerin ID %d existiert nicht."
 
 #: participant/views.py:241
 #, python-format
@@ -1835,7 +1836,7 @@ msgstr "Gruppe <b>%s</b>  wurde erfolgreich gelöscht."
 
 #: participant/views.py:352
 msgid "User settings successfully saved."
-msgstr "Nutzereinstellungen wurden erfolgreich gespeichert."
+msgstr "Nutzerinneneinstellungen wurden erfolgreich gespeichert."
 
 #: participant/views.py:374
 msgid "Password successfully changed."
@@ -1843,12 +1844,12 @@ msgstr "Password wurde erfolgreich geändert."
 
 #: participant/views.py:447
 msgid "Supporters removed after user import."
-msgstr "Unterstützer/innen nach Benutzerimport zurückgesetzt."
+msgstr "Unterstützerinnen nach Benutzerinnenimport zurückgesetzt."
 
 #: participant/views.py:501
 #, python-format
 msgid "Reassigned to \"%s\" after (re)importing users."
-msgstr "Nach Benutzerimport erneut \"%s\" zugeordnet."
+msgstr "Nach Benutzerinnenimport erneut \"%s\" zugeordnet."
 
 #: participant/views.py:504 participant/views.py:518
 msgid "Could not reassing motion %d - object not found!"
@@ -1879,27 +1880,27 @@ msgstr[1] "%d Anträge wurden verworfen."
 #: participant/views.py:531
 #, python-format
 msgid "%d new participants were successfully imported."
-msgstr "%d neue Teilnehmer/innen wurden erfolgreich importiert."
+msgstr "%d neue Teilnehmerinnen wurden erfolgreich importiert."
 
 #: participant/views.py:540
 msgid ""
 "Attention: All existing participants will be removed if you import new "
 "participants."
 msgstr ""
-"Achtung: Alle existierenden Teilnehmer/innen werden gelöscht, wenn Sie neue "
-"Teilnehmer/innen importieren."
+"Achtung: Alle existierenden Teilnehmerinnen werden gelöscht, wenn Sie neue "
+"Teilnehmerinnen importieren."
 
 #: participant/views.py:542
 msgid "Attention: Supporters from all existing motions will be removed."
 msgstr ""
-"Achtung: Alle Unterstützer/innen werden von existiernden Anträgen gelöscht."
+"Achtung: Alle Unterstützerinnen werden von existiernden Anträgen gelöscht."
 
 #: participant/views.py:543
 msgid ""
 "Attention: Motions which can't be mapped to new users will be set to 'Needs "
 "Review'."
 msgstr ""
-"Achtung: Anträge welche keinem Nutzer zugeordnet werden können bekommen "
+"Achtung: Anträge welche keiner Nutzerin zugeordnet werden können bekommen "
 "automatisch den Status \"Benötigt Review\"."
 
 #: participant/views.py:559
@@ -1931,15 +1932,15 @@ msgstr ""
 #: participant/templates/participant/overview.html:17
 #: participant/templates/participant/overview.html:61
 msgid "Participants"
-msgstr "Teilnehmer/innen"
+msgstr "Teilnehmerinnen"
 
 #: participant/views.py:605
 msgid "Participant-list"
-msgstr "Teilnehmerliste"
+msgstr "Teilnehmerinnenliste"
 
 #: participant/views.py:606
 msgid "List of Participants"
-msgstr "Teilnehmerliste"
+msgstr "Teilnehmerinnenliste"
 
 #: participant/views.py:609 participant/templates/participant/overview.html:66
 msgid "Last Name"
@@ -1956,7 +1957,7 @@ msgstr "Typ"
 
 #: participant/views.py:646
 msgid "Participant-passwords"
-msgstr "Teilnehmer-Passwoerter"
+msgstr "Teilnehmerinnen-Passwoerter"
 
 #: participant/views.py:665
 msgid "Account for OpenSlides"
@@ -1970,7 +1971,7 @@ msgstr "für %s"
 #: participant/views.py:670
 #, python-format
 msgid "User: %s"
-msgstr "Nutzername: %s"
+msgstr "Nutzerinnenname: %s"
 
 #: participant/views.py:672
 #, python-format
@@ -1984,37 +1985,37 @@ msgstr "URL: %s"
 
 #: participant/views.py:723
 msgid "Participants settings successfully saved."
-msgstr "Teilnehmer/innen-Einstellungen wurden erfolgreich gespeichert."
+msgstr "Teilnehmerinnen-Einstellungen wurden erfolgreich gespeichert."
 
 #: participant/templates/participant/base_participant.html:15
 msgid "All participants"
-msgstr "Alle Teilnehmer/innen"
+msgstr "Alle Teilnehmerinnen"
 
 #: participant/templates/participant/base_participant.html:18
 #: participant/templates/participant/edit.html:10
 #: participant/templates/participant/edit.html:19
 msgid "New participant"
-msgstr "Neue/r Teilnehmer/in"
+msgstr "Neue Teilnehmerin"
 
 #: participant/templates/participant/base_participant.html:19
 msgid "All user groups"
-msgstr "Alle Benutzerrollen"
+msgstr "Alle Benutzerinnenrollen"
 
 #: participant/templates/participant/base_participant.html:20
 #: participant/templates/participant/group_edit.html:10
 #: participant/templates/participant/group_edit.html:18
 msgid "New user group"
-msgstr "Neue Benutzerrolle"
+msgstr "Neue Benutzerinnenrolle"
 
 #: participant/templates/participant/base_participant.html:21
 #: participant/templates/participant/import.html:5
 #: participant/templates/participant/import.html:8
 msgid "Import participants"
-msgstr "Teilnehmer/innen importieren"
+msgstr "Teilnehmerinnen importieren"
 
 #: participant/templates/participant/base_participant.html:24
 msgid "List of participants as PDF"
-msgstr "Teilnehmerliste als PDF"
+msgstr "Teilnehmerinnenliste als PDF"
 
 #: participant/templates/participant/base_participant.html:27
 msgid "First time passwords as PDF"
@@ -2023,13 +2024,13 @@ msgstr "Erst-Passwörter als PDF"
 #: participant/templates/participant/config.html:5
 #: participant/templates/participant/config.html:8
 msgid "Participant settings"
-msgstr "Teilnehmer/innen-Einstellungen"
+msgstr "Teilnehmerinnen-Einstellungen"
 
 #: participant/templates/participant/edit.html:8
 #: participant/templates/participant/edit.html:17
 #: participant/templates/participant/overview.html:89
 msgid "Edit participant"
-msgstr "Teilnehmer/in bearbeiten"
+msgstr "Teilnehmerin bearbeiten"
 
 #: participant/templates/participant/edit.html:26
 msgid "Reset to First Password"
@@ -2038,27 +2039,27 @@ msgstr "Auf Erst-Passwort zurücksetzen"
 #: participant/templates/participant/group_edit.html:8
 #: participant/templates/participant/group_edit.html:16
 msgid "Edit user group"
-msgstr "Benutzerrolle bearbeiten"
+msgstr "Benutzerinnenrolle bearbeiten"
 
 #: participant/templates/participant/group_overview.html:12
 msgid "User Group"
-msgstr "Benutzerrolle"
+msgstr "Benutzerinnenrolle"
 
 #: participant/templates/participant/group_overview.html:18
 msgid "Edit group"
-msgstr "Benutzerrolle bearbeiten"
+msgstr "Benutzerinnenrolle bearbeiten"
 
 #: participant/templates/participant/group_overview.html:20
 msgid "Delete group"
-msgstr "Benutzerrolle löschen"
+msgstr "Benutzerinnenrolle löschen"
 
 #: participant/templates/participant/group_overview.html:26
 msgid "No user groups available."
-msgstr "Keine Benutzerrollen vorhanden."
+msgstr "Keine Benutzerinnenrollen vorhanden."
 
 #: participant/templates/participant/import.html:9
 msgid "Select a CSV file to import participants!"
-msgstr "Wählen Sie eine CSV-Datei zum Importieren von Teilnehmer/innen aus!"
+msgstr "Wählen Sie eine CSV-Datei zum Importieren von Teilnehmerinnen aus!"
 
 #: participant/templates/participant/import.html:11
 msgid ""
@@ -2083,7 +2084,7 @@ msgstr "Meldung ausblenden"
 #: participant/templates/participant/login.html:27
 msgid "Your username and password were not accepted. Please try again."
 msgstr ""
-"Benutzername und Passwort wurden nicht akzeptiert. Bitte versuchen Sie es "
+"Benutzerinnenname und Passwort wurden nicht akzeptiert. Bitte versuchen Sie es "
 "erneut."
 
 #: participant/templates/participant/login.html:62
@@ -2102,8 +2103,8 @@ msgstr "Inaktiv"
 #: participant/templates/participant/overview.html:59
 msgid "participant"
 msgid_plural "participants"
-msgstr[0] "Teilnehmer/in"
-msgstr[1] "Teilnehmer/innen"
+msgstr[0] "Teilnehmerin"
+msgstr[1] "Teilnehmerinnen"
 
 #: participant/templates/participant/overview.html:61
 msgid "of"
@@ -2115,7 +2116,7 @@ msgstr "Letzer Login"
 
 #: participant/templates/participant/overview.html:90
 msgid "Delete participant"
-msgstr "Teilnehmer/in löschen"
+msgstr "Teilnehmerin löschen"
 
 #: participant/templates/participant/overview.html:93
 msgid "Change status (active/inactive)"
@@ -2123,7 +2124,7 @@ msgstr "Status ändern (aktiv/inaktiv)"
 
 #: participant/templates/participant/overview.html:102
 msgid "No participants available."
-msgstr "Keine Teilnehmer/innen vorhanden."
+msgstr "Keine Teilnehmerinnen vorhanden."
 
 #: participant/templates/participant/password_change.html:5
 #: participant/templates/participant/password_change.html:11
@@ -2135,7 +2136,7 @@ msgstr "Passwort Einstellungen"
 #: participant/templates/participant/password_change.html:8
 #: participant/templates/participant/settings.html:8 templates/base.html:29
 msgid "User Settings"
-msgstr "Benutzereinstellungen"
+msgstr "Benutzerinneneinstellungen"
 
 #: participant/templates/participant/password_change.html:10
 #: participant/templates/participant/settings.html:5
